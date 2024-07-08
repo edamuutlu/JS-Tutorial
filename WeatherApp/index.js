@@ -3,11 +3,11 @@
 const weatherForm = document.querySelector(".weatherForm");
 const cityInput = document.querySelector(".cityInput");
 const card = document.querySelector(".card");
-const apiKey = "YOUR API KEY";
+const apiKey = "816dd40f092945c49a1b3bd02c7884ed";
 
 weatherForm.addEventListener("submit", async event => {
 
-    event.preventDefault();
+    event.preventDefault(); /* sayfayı refresh etmeden güncellemeleri görebilmek için */
 
     const city = cityInput.value;
 
